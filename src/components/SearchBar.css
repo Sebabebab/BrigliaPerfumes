@@ -8,9 +8,9 @@
 
 @media (max-width: 766px) {
   .search-input {
-    width: 270px;
+    width: 350px;
     display: block;
-    padding: 8px;
+    padding: 9px;
     border: 1px solid #999;
     border-radius: 1px;
     font-size: 11px;
