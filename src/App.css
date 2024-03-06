@@ -95,7 +95,7 @@ time, mark, audio, video {
 
   .top-bar {
     background-color: #282E45;
-    height: 40px; 
+    height: 55px; 
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -103,7 +103,7 @@ time, mark, audio, video {
 
   .top-bar2{
     background-color: #282E45;
-    height: 50px; 
+    height: 60px; 
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -123,7 +123,7 @@ time, mark, audio, video {
     height: 22px;
     width: auto;
     display: center;
-    top: 3px;
+    top: 5px;
     position: relative;
    }
 

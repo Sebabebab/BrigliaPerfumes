@@ -21,8 +21,8 @@
     width: 30px;
     height: 30px;
     position: fixed;
-    top: 9px;
-    left: 15px;
+    top: 19px;
+    left: 19px;
     cursor: pointer;
     transition: transform 0.5s ease;
     z-index: 999;
