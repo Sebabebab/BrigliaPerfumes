@@ -1,0 +1,58 @@
+
+
+@media (max-width: 776px) {
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: -100%; 
+    width: 100%;
+    height: 100%;
+    background-color: #8D6A34;
+    z-index: 989;
+    transition: left 0.3s ease; 
+  }
+  
+  .overlay.show {
+    left: 0; 
+  }
+
+  .burger-menu {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    z-index: 999;
+  }
+  
+  .burger-menu.open {
+    transform: rotate(90deg);
+  }
+  
+  .lineburger{
+    stroke-width: 1.3px;
+    stroke: #DFC385;
+  }
+  
+  .linex {
+    stroke: white;
+    stroke-width: 1.3px;
+  }
+  
+  .close-icon {
+    display: none;
+  }
+  
+  .open .close-icon {
+    display: block;
+  }
+  
+  .open .burger-icon {
+    display: none;
+  }
+
+}
+
