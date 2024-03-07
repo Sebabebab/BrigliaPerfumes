@@ -1,3 +1,4 @@
+
 .search-form {
   display: none;
 }
@@ -7,11 +8,13 @@
 }
 
 @media (max-width: 766px) {
+
+
   .search-input {
-    width: 338px;
+    width: 100%;
     top: 10px;
     display: block;
-    padding: 9px;
+    padding: 11px;
     border: 1px solid #999;
     border-radius: 1.5px;
     font-size: 11px;
@@ -30,6 +33,9 @@
   }
 
   .search-form {
+    width: 90%;
     display: block;
+    position: absolute;
+    margin-left: -5%;
   }
 }
