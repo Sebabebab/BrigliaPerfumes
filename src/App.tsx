@@ -5,9 +5,8 @@ import Pouring from './Bilder/pouring.jpg';
 import PouringPhone from './Bilder/pouringphone.jpg';
 import PouringIpad from './Bilder/pouringipad.jpg';
 import Buttontext from './components/button';
-import SearchBar from './components/SearchBar';
 import BurgerMenu from './components/Burgermenu';
-
+import SearchBarButton from './components/searchbarbutton'; 
 
 function App() {
   const handleSearch = (searchTerm: any) => {
@@ -18,10 +17,10 @@ function App() {
     <div className="App">
       <header className="top-bar">
         <img src={Logo} alt="Logo" className="Logo-Img" />
+        <SearchBarButton onClick={handleSearch} />
         <BurgerMenu />
       </header>
       <header className="top-bar2">
-        <SearchBar  onSearch={handleSearch} /> 
         <Buttontext href="" label="EXPLORE" />
         <Buttontext href="" label="SAMPLES" />
         <Buttontext href="" label="STORES" />

@@ -1,6 +1,6 @@
 
 
-@media (max-width: 776px) {
+@media (max-width: 766px) {
 
   .overlay {
     position: fixed;
@@ -22,7 +22,7 @@
     height: 30px;
     position: fixed;
     top: 19px;
-    left: 19px;
+    left: 11px;
     cursor: pointer;
     transition: transform 0.5s ease;
     z-index: 999;
