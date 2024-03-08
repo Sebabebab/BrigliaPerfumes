@@ -1,7 +1,7 @@
 .search-bar {
   position: absolute;
-  top: 25px;
-  left: 65px;
+  top: 20px;
+  left: 60px;
   width: 0;
   height: 30px;
   padding: 4.5px;
@@ -32,3 +32,33 @@
   cursor: auto;
   pointer-events: all;
 }
+
+
+
+@media (max-width: 1090px) {
+  .search-container.open .search-bar {
+    width: 270px;
+  }
+}
+
+@media (max-width: 940px) {
+  .search-container.open .search-bar {
+    width: 190px;
+  }
+}
+
+@media (max-width: 766px) {
+  .search-container.open .search-bar {
+    display: none;
+  }
+  .search-bar {
+    display: none;
+  }
+  
+  .search-container {
+    display: none;
+  }
+
+}
+
+

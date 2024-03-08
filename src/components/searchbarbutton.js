@@ -23,7 +23,7 @@ const SearchBarButton = ({ onClick }) => {
         strokeLinejoin="round"
         className="search-button"
         onClick={handleClick}
-        style={{ position: 'absolute', left: '20px', top: '30px', transition: 'transform 0.3s ease' }}
+        style={{ position: 'absolute', left: '20px', top: '26px', transition: 'transform 0.3s ease' }}
         transform={isSearching ? 'rotate(45) scale(1.2)' : ''}
       >
         {isSearching ? (
