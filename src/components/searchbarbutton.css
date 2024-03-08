@@ -5,7 +5,7 @@
   width: 0;
   height: 30px;
   padding: 4.5px;
-  border: 1px solid #999;
+  border: 1px solid #606677;
   background-color: transparent; 
   color: #DFC385;
   border-radius: 1.5px;
@@ -23,12 +23,12 @@
 }
 
 .search-bar::placeholder {
-  color: #999;
+  color: #606677;
 }
 
 .search-container.open .search-bar {
   width: 340px;
-  opacity: 1; 
+  opacity: 1  ; 
   cursor: auto;
   pointer-events: all;
 }

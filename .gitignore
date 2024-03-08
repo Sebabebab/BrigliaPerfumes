@@ -1,1 +1,7 @@
 node_modules/
+node_modules/.cache/default-development/index.pack
+node_modules/.cache/default-development/24.pack
+*.pack
+node_modules/.cache/default-development/19.pack
+*.pack
+*.pack
