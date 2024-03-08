@@ -10,7 +10,7 @@ const SearchBarButton = ({ onClick }) => {
   };
 
   return (
-    <div className="search-container">
+    <div className={`search-container ${isSearching ? 'open' : ''}`}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="30"
@@ -38,7 +38,7 @@ const SearchBarButton = ({ onClick }) => {
           </>
         )}
       </svg>
-      {isSearching && <input type="text" className="search-bar" placeholder="Search..." />}
+      <input type="text" className="search-bar" placeholder="Search our catalogue" />
     </div>
   );
 };
