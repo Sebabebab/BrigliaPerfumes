@@ -25,34 +25,8 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-.top-bar {
-  background-color: #282E45;
-  height: 80px; 
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-}
 
-.top-bar2{
-  background-color: #282E45;
-  height: 60px; 
-  justify-content: center;
-  align-items: center; 
-  display: flex;
-  justify-content: space-evenly;
-  padding-left: 10%;
-  padding-right: 10%;
-}
 
-.top-bar-title {
-  font-size: 24px;
-}
-
-.Logo-Img{
- height: 30px;
- width: auto;
- display: center;
-}
 
 .pouring{
   width: 100%;
@@ -72,18 +46,6 @@ time, mark, audio, video {
 
 
 
-@media (max-width: 1300px) {
-  .top-bar2{
-    background-color: #282E45;
-    height: 60px; 
-    justify-content: center;
-    align-items: center; 
-    display: flex;
-    justify-content: space-evenly;
-  }
-}
-
-
 @media (max-width: 1100px) and (min-width: 766px) {
 
   .pouring {
@@ -98,32 +60,8 @@ time, mark, audio, video {
 }
 
 
-@media (max-width: 975px) {
-  .top-bar2{
-    background-color: #282E45;
-    height: 60px; 
-    display: flex;
-    border: 0px;
-  }
-}
-
 @media (max-width: 766px) {
 
-  .top-bar {
-    background-color: #282E45;
-    height: 55px; 
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-  }
-
-  .top-bar2{
-    background-color: #282E45;
-    height: 60px; 
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-  }
 
   .pouring {
     display: none;
@@ -135,30 +73,6 @@ time, mark, audio, video {
     height: auto;
   }
 
-  .Logo-Img{
-    height: 20px;
-    width: auto;
-    display: center;
-    top: 5px;
-    position: relative;
-   }
-
-   .search-input {
-    display: block;
-    padding: 8px;
-    padding-right: 100px;
-    border: 1px solid white; 
-    border-radius: 0.5px; 
-    font-size: 15px;
-    width: 100%;
-    background-color: #707B9E;
-    text-decoration-color: white;
-    color: white;
-  }
-
-  .search-form {
-    display: block;
-  }
   
 .pouringipad {
   display: none;

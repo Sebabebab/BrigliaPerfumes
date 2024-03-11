@@ -1,0 +1,124 @@
+  
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+  }
+  
+  .top-bar {
+    background-color: #282E45;
+    height: 80px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .top-bar2{
+    background-color: #282E45;
+    height: 60px; 
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .top-bar-title {
+    font-size: 24px;
+  }
+  
+  .Logo-Img{
+   height: 30px;
+   width: auto;
+   display: center;
+  }
+  
+  .topbarbuttons {
+    display: block;
+  }
+  
+  
+  
+  @media (max-width: 1300px) {
+    .top-bar2{
+      background-color: #282E45;
+      height: 60px; 
+      justify-content: center;
+      align-items: center; 
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+  
+  
+  
+  @media (max-width: 975px) {
+    .top-bar2{
+      background-color: #282E45;
+      height: 60px; 
+      display: flex;
+      border: 0px;
+    }
+  }
+  
+  @media (max-width: 766px) {
+  
+    .top-bar {
+      background-color: #282E45;
+      height: 55px; 
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+  
+    .top-bar2{
+      background-color: #282E45;
+      height: 60px; 
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+  
+    .Logo-Img{
+      height: 20px;
+      width: auto;
+      display: center;
+      top: 5px;
+      position: relative;
+     }
+  
+     .search-input {
+        align-items: center;
+        background-color: #707b9e;
+        border: 1px solid #999;
+        border-radius: 1.5px;
+        color: #dfc385;
+        display: block;
+        font-size: 11px;
+        outline: none;
+        padding: 11px;
+        top: 10px;
+        width: 100%;
+    }
+  
+    .search-form {
+      display: block;
+    }
+    
+  }

@@ -1,3 +1,7 @@
+.search-button{
+  cursor:pointer ;
+}
+
 .search-bar {
   position: absolute;
   top: 20px;
@@ -16,6 +20,7 @@
   opacity: 0; 
   cursor:default ;
   pointer-events: none;
+  font-size: 11px;
 }
 
 .search-bar:focus {
@@ -32,7 +37,6 @@
   cursor: auto;
   pointer-events: all;
 }
-
 
 
 @media (max-width: 1090px) {
