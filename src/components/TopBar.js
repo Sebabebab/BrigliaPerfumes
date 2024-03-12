@@ -5,13 +5,16 @@ import BurgerMenu from './Burgermenu';
 import Buttontext from './button';
 import SearchBar from './SearchBar';
 import './TopBar.css';
+import User from './User';
 
+    
 const TopBar = ({ handleSearch }) => {
   return (
     <div>
       <header className="top-bar">
         <img src={Logo} alt="Logo" className="Logo-Img" />
         <SearchBarButton onClick={handleSearch} />
+        <User username="John Doe" />
         <BurgerMenu />
       </header>
       <header className="top-bar2">
@@ -24,5 +27,6 @@ const TopBar = ({ handleSearch }) => {
     </div>
   );
 };
+
 
 export default TopBar;
