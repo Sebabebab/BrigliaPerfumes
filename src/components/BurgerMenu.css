@@ -29,7 +29,7 @@
   }
   
   .burger-menu.open {
-    transform: rotate(90deg);
+    transform: rotate(180deg);
   }
   
   .lineburger{
