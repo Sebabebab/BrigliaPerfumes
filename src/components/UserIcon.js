@@ -8,7 +8,7 @@ const UserIcon = ({ width, height, color }) => {
     setIsSpinning(true);
     setTimeout(() => {
       setIsSpinning(false);
-    }, 500); // Reset spinning state after 0.5 seconds
+    }, 500); 
   };
 
   return (
