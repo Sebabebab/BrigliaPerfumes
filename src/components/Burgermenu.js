@@ -12,12 +12,11 @@ const BurgerMenu = () => {
     <div>
       <div className={`overlay ${isOpen ? 'show' : ''}`} onClick={setIsOpen}>
         <div className="overlay-content">
-          <p>HOME</p>
-          <p>CONTACT</p>
-          <p>STORES</p>
-          <p>EXPLORE</p>
-          <p>SOCIALS</p>
-          <p>NEW ARRIVALS</p>
+        <a href="">HOME</a>
+        <a href="#">CONTACT</a>
+        <a href="#">COLLECRION</a>
+        <a href="#">STORES</a>
+        <a href="#">NEW ARRIVALS</a> 
         </div>
       </div>
       <div className={`burger-menu ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>

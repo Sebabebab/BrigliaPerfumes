@@ -5,3 +5,5 @@ node_modules/.cache/default-development/25.pack
 *.old
 node_modules/.cache/default-development/26.pack
 node_modules/.cache/default-development/index.pack.old
+node_modules/.cache/default-development/0.pack
+/node_modules

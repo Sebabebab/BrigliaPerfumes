@@ -75,16 +75,18 @@
     width: 100% ;
   }
   
-  .overlay-content p {
+  .overlay-content a {
     margin: 56px 0; 
     position: relative;
     display: block;
     left: 20px;
-    
+    color: white;
+    text-decoration: none;
+  
   }
 
   
-  .overlay-content p::after {
+  .overlay-content a::after {
     content: "";
     position: absolute;
     bottom: -28px; 
@@ -110,16 +112,17 @@
     width: 100% ;
   }
   
-  .overlay-content p {
+  .overlay-content a {
     margin: 40px 0; 
     position: relative;
     display: block;
     left: 20px;
-    
+    color: white;
+    text-decoration: none;
   }
 
   
-  .overlay-content p::after {
+  .overlay-content a::after {
     content: "";
     position: absolute;
     bottom: -20px; 
