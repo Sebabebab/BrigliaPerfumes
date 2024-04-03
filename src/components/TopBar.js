@@ -7,12 +7,11 @@ import SearchBar from './SearchBar';
 import './TopBar.css';
 import UserIcon from './UserIcon';
 
-    
 const TopBar = ({ handleSearch }) => {
   return (
     <div>
       <header className="top-bar">
-        <img src={Logo} alt="Logo" className="Logo-Img" />
+          <img src={Logo} alt="Logo" className="Logo-Img" />
         <SearchBarButton onClick={handleSearch} />
         <UserIcon />
         <BurgerMenu />
@@ -27,6 +26,5 @@ const TopBar = ({ handleSearch }) => {
     </div>
   );
 };
-
 
 export default TopBar;

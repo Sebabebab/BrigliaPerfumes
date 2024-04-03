@@ -7,6 +7,25 @@
   transition: opacity 0.5s ease;
 }
 
-.user-icon.hide {
-  opacity: 0;
+.spin-animation {
+  animation: spin 0.5s ease;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(720deg);
+  }
+}
+
+@media (max-width: 766px) {
+.user-icon{
+  top: 19px;
+  right: 11px;
+  stroke-width: 1.5px;
+  width: 26px;
+  height: 26px;
+}
 }

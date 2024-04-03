@@ -7,11 +7,6 @@ function App() {
     console.log('Searching for:', searchTerm);
   };
 
-  return (
-    <div className="App">
-      <TopBar handleSearch={handleSearch} />
-    </div>
-  );
 }
 
 export default App;
