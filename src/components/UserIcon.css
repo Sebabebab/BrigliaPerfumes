@@ -1,0 +1,12 @@
+.user-icon {
+  position: absolute;
+  top: 26px;
+  right: 20px;
+  stroke-width: 1.5;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+.user-icon.hide {
+  opacity: 0;
+}

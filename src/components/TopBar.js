@@ -5,7 +5,7 @@ import BurgerMenu from './Burgermenu';
 import Buttontext from './button';
 import SearchBar from './SearchBar';
 import './TopBar.css';
-import User from './User';
+import UserIcon from './UserIcon';
 
     
 const TopBar = ({ handleSearch }) => {
@@ -14,7 +14,7 @@ const TopBar = ({ handleSearch }) => {
       <header className="top-bar">
         <img src={Logo} alt="Logo" className="Logo-Img" />
         <SearchBarButton onClick={handleSearch} />
-        <User username="John Doe" />
+        <UserIcon />
         <BurgerMenu />
       </header>
       <header className="top-bar2">
