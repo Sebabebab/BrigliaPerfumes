@@ -10,7 +10,16 @@ const BurgerMenu = () => {
 
   return (
     <div>
-      <div className={`overlay ${isOpen ? 'show' : ''}`} onClick={toggleMenu}></div>
+      <div className={`overlay ${isOpen ? 'show' : ''}`} onClick={setIsOpen}>
+        <div className="overlay-content">
+          <p>HOME</p>
+          <p>CONTACT</p>
+          <p>STORES</p>
+          <p>EXPLORE</p>
+          <p>SOCIALS</p>
+          <p>NEW ARRIVALS</p>
+        </div>
+      </div>
       <div className={`burger-menu ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
