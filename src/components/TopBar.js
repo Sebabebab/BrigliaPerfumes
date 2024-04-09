@@ -6,6 +6,7 @@ import Buttontext from './button';
 import SearchBar from './SearchBar';
 import './TopBar.css';
 import UserIcon from './UserIcon';
+import HeartIcon from './hearticon';
 
 const TopBar = ({ handleSearch }) => {
   return (
@@ -13,6 +14,7 @@ const TopBar = ({ handleSearch }) => {
       <header className="top-bar">
           <img src={Logo} alt="Logo" className="Logo-Img" />
         <SearchBarButton onClick={handleSearch} />
+        <HeartIcon />
         <UserIcon />
         <BurgerMenu />
       </header>

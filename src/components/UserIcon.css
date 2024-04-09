@@ -2,7 +2,7 @@
   position: absolute;
   top: 26px;
   right: 20px;
-  stroke-width: 1.5;
+  stroke-width: 1.5px;
   cursor: pointer;
   transition: opacity 0.5s ease;
 }
