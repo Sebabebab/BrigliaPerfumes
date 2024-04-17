@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './UserIcon.css';
+import { Link } from 'react-router-dom';
+
 
 const UserIcon = ({ width, height, color }) => {
   const [isSpinning, setIsSpinning] = useState(false);
@@ -28,6 +30,7 @@ const UserIcon = ({ width, height, color }) => {
       <circle cx="11" cy="11" r="8"/>
       <rect x="1px" y="23px" width="20" height="10" rx="7" ry="7"/>
     </svg>
+    
   );
 };
 
