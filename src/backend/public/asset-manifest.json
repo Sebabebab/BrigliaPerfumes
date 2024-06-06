@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5e40bb8c.css",
+    "main.js": "/static/js/main.948939b6.js",
+    "static/js/453.ad6eb26e.chunk.js": "/static/js/453.ad6eb26e.chunk.js",
+    "static/media/pouringphone.jpg": "/static/media/pouringphone.1ad8c9b0fa6b62e7273f.jpg",
+    "static/media/pouringipad.jpg": "/static/media/pouringipad.dbdb4250165a9b65ca28.jpg",
+    "static/media/pouring.jpg": "/static/media/pouring.0a0daced42da969d0550.jpg",
+    "static/media/Rene Bieder - Choplin ExtraLight Italic.otf": "/static/media/Rene Bieder - Choplin ExtraLight Italic.7f18a4d9dcb55d1a7acf.otf",
+    "static/media/Logo.png": "/static/media/Logo.7f56b86dd5e8da901835.png",
+    "index.html": "/index.html",
+    "main.5e40bb8c.css.map": "/static/css/main.5e40bb8c.css.map",
+    "main.948939b6.js.map": "/static/js/main.948939b6.js.map",
+    "453.ad6eb26e.chunk.js.map": "/static/js/453.ad6eb26e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e40bb8c.css",
+    "static/js/main.948939b6.js"
+  ]
+}
