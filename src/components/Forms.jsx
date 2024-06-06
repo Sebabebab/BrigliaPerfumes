@@ -6,7 +6,7 @@ function Forms() {
   const [state, handleSubmit] = useForm("xnqekwlw");
   
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+      return;
   }
   
   return (
