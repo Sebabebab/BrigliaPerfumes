@@ -7,7 +7,7 @@ import TopBar from './components/TopBar';
 import { HashRouter, Routes, Route, Form } from 'react-router-dom';
 import { Login} from './pages/login';
 import { Home } from './pages/home';
-import Forms from './components/Forms';
+import Forms from './components/Forms'; 
 
 function App() {
   const handleSearch = (searchTerm: any) => {
@@ -26,7 +26,7 @@ function App() {
       <img src={Pouring} alt="Frontpage" className="pouring" />
       <img src={PouringPhone} alt="Frontpage" className="pouringphone" />
       <img src={PouringIpad} alt="Frontpage" className="pouringipad" />
- <Forms />
+      <Forms />
     </div>
   );
 }

@@ -2,12 +2,8 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import './forms.css';
 
-function Forms() {
+const Forms: React.FC = () => {
   const [state, handleSubmit] = useForm("xnqekwlw");
-  
-  if (state.succeeded) {
-      return;
-  }
   
   return (
     <div className="forms-container">
@@ -39,6 +35,7 @@ function Forms() {
             <button type="submit" disabled={state.submitting}>
                 Submit
             </button>
+            {state.succeeded && <p>Thank you for your submission!</p>}
         </form>
     </div>
   );
