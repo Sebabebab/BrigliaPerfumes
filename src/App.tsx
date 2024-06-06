@@ -15,13 +15,13 @@ function App() {
 
   return (
     <div className="App">
-        <HashRouter>
+      <TopBar handleSearch={handleSearch} />
+      <HashRouter>
           <Routes>
           <Route path="/" element={<Home/>}/> 
             <Route path="/login" element={<Login/>}/>
           </Routes>
         </HashRouter>
-      <TopBar handleSearch={handleSearch} />
       <img src={Pouring} alt="Frontpage" className="pouring" />
       <img src={PouringPhone} alt="Frontpage" className="pouringphone" />
       <img src={PouringIpad} alt="Frontpage" className="pouringipad" />

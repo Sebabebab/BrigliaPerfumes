@@ -1,0 +1,93 @@
+.auth-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 65vh;
+    background: #282E45;
+    padding: 0 20px;
+    font: inherit;
+}
+
+.auth-form-wrapper {
+    position: relative;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #282E45;
+}
+
+.auth-form-toggle {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.auth-form-toggle button {
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.auth-form-toggle button.active {
+    font-weight: bold;
+    border-bottom: 2px solid #282E45;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.auth-form h1 {
+    margin-bottom: 20px;
+    color: #282E45;
+    font: inherit;
+}
+
+.auth-form input,
+.auth-form-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #282E45;
+    border-radius: 5px;
+    font-size: 16px;
+    font: inherit;
+}
+
+.auth-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #282E45;
+    color: #DFC385;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font: inherit;
+}
+
+.auth-form button:hover {
+    background: #1f2436;
+}
